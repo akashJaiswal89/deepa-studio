@@ -5,9 +5,8 @@ const expressLayout = require('express-ejs-layouts')
 const app = express()
 const port = process.env.PORT || 200
 
-app.use(express.static('public'))
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
+app.use('/static', express.static('public'))
+app.use(express.urlencoded())
 app.set('views', path.join(__dirname, './front/views'))
 app.use(expressLayout)
 app.set('view engine', 'ejs')
