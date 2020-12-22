@@ -1,0 +1,74 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .navbarLeft {
+        position: absolute;
+        top: 0;
+    }
+    
+    .navOn {
+        background-color: azure;
+        height: 100vh;
+        width: 60vw;
+    }
+    
+    .navOpen {
+        padding: 10px;
+        cursor: pointer;
+        margin: 25px 8px;
+    }
+    
+    .navNone {
+        display: none;
+    }
+    
+    .openNav {
+        background-color: black;
+        margin: 3px;
+        width: 30px;
+        height: 2px;
+    }
+    
+    .profileImg {
+        background-color: rgb(160, 235, 248);
+        width: 167px;
+        height: 167px;
+        border-radius: 102px;
+    }
+    
+    .profile {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .profile a {
+        display: block;
+        margin: 32px auto;
+        font-size: 30px;
+        color: black;
+    }
+    
+    .line {
+        background-color: rgb(54, 49, 49);
+        width: 60vw;
+        height: 1px;
+    }
+    
+    .navList li {
+        margin: 20px 36px;
+        font-size: 20px;
+    }
+    
+    .navList li a {
+        color: black;
+    }
