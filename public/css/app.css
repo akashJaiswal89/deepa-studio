@@ -25,11 +25,13 @@
     .customerName {
         font-size: 20px;
         margin: 10px;
+        margin-right: 20px;
         display: inline-table;
     }
     
     .customerName a {
-        color: azure;
+        color: darkred;
+        font-size: 30px;
     }
     
     .navOpen {
@@ -52,8 +54,10 @@
     }
     
     .logo a img {
-        width: 155px;
+        margin-top: 12px;
+        width: 122px;
         margin-left: 80px;
+        border-radius: 45px;
     }
     
     .openNav {
@@ -95,4 +99,26 @@
     
     .navList li a {
         color: black;
+    }
+    /* home page */
+    
+    .chatbox {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .chatbox div {
+        margin-left: 13px;
+    }
+    
+    .chatbox a img {
+        width: 70px;
+        margin: 1px 21px 5px 0px;
+    }
+    
+    .Book a img {
+        width: 20vh;
+        border-radius: 100px;
     }

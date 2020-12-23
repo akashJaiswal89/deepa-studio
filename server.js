@@ -16,5 +16,4 @@ require('./routes/wab.js')(app)
 
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
-
 })
