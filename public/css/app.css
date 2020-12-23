@@ -22,6 +22,16 @@
         width: 60vw;
     }
     
+    .customerName {
+        font-size: 20px;
+        margin: 10px;
+        display: inline-table;
+    }
+    
+    .customerName a {
+        color: azure;
+    }
+    
     .navOpen {
         padding: 10px;
         cursor: pointer;
@@ -30,6 +40,20 @@
     
     .navNone {
         display: none;
+    }
+    
+    .navFirst {
+        background: url(../img/navbar.jpg) no-repeat center;
+        width: 100vw;
+        height: 19vh;
+        display: flex;
+        place-content: space-between;
+        position: relative;
+    }
+    
+    .logo a img {
+        width: 155px;
+        margin-left: 80px;
     }
     
     .openNav {
