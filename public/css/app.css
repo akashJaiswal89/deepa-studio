@@ -34,7 +34,7 @@
     
     .customerName a {
         color: aliceblue;
-        font-size: 30px;
+        font-size: 5vw;
     }
     
     .navOpen {
@@ -50,7 +50,7 @@
     .navFirst {
         background: url(../img/navbar.jpg) no-repeat center;
         width: 100vw;
-        height: 19vh;
+        height: 30vh;
         display: flex;
         place-content: space-between;
         position: relative;
@@ -100,7 +100,7 @@
     
     .rightNav {
         height: 100vh;
-        width: 40vw;
+        width: 100vw;
         background-color: aquamarine;
         position: fixed;
         top: 0;
@@ -156,6 +156,13 @@
         border-radius: 45px;
     }
     
+    .homeBook a img {
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        width: 4vh;
+    }
+    
     .homeBook a :hover {
         color: coral;
         transition: .1s ease-in-out;
@@ -191,4 +198,23 @@
         padding: 8px 15px;
         border: 2px solid black;
         border-radius: 45px;
+    }
+    
+    .orderCamara img {
+        border-radius: 10px;
+        width: 70vw;
+    }
+    
+    .orderCamara div img {
+        width: 30vw;
+    }
+    
+    .orderCamara a img {
+        width: 4vh;
+    }
+    
+    @media only screen and (min-width: 800px) {
+        .navFirst {
+            height: 42vh;
+        }
     }
